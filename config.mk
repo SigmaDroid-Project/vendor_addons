@@ -383,6 +383,20 @@ PRODUCT_PACKAGES += \
     VolumeShadedLayer \
     VolumeAOSPRevamped
 
+# Progress Bar Themes
+PRODUCT_PACKAGES += \
+    PGB_BlockyThumb \
+    PGB_MinimalThumb \
+    PGB_OutlineThumb
+
+# Notification Themes
+PRODUCT_PACKAGES += \
+    NotifCyberPunk \
+    NotifDuoline \
+    NotifIOS \
+    NotifLayers
+
+
 # Include {Lato,Rubik} fonts
 $(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
 $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
